@@ -1,6 +1,6 @@
 # Temperature Net in PyTorch
 
-We provide a PyTorch implementation of Temperature Net. The code contains some unnecessary test lines and will be re-organized soon. 
+We provide a PyTorch implementation of Temperature Net. The code contains some unnecessary test codes and will be re-organized soon. 
 
 
 ## Prerequisites
@@ -20,7 +20,7 @@ We provide a PyTorch implementation of Temperature Net. The code contains some u
 ### Few-shot Classification
 - For your convenience, we specify the parameters for every dataset, including the dataset path, # testing episodes, and # episodes to tune temperature (n*5/3). Please put the dataset in corresponding directory and directly run the corresponding file.
 - Validation and test will be conducted while training.
-- miniImageNet is split as Ravi, Sachin, and Hugo Larochelle. "Optimization as a model for few-shot learning." (2016). 
+- miniImageNet is splited as Ravi, Sachin, and Hugo Larochelle. "Optimization as a model for few-shot learning." (2016). 
 - Train a 5-way 1-shot model for miniImageNet:
 ```bash
 python Train_5way1shot_miniImageNet.py 
